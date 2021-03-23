@@ -1,0 +1,79 @@
+{
+    "0": {
+        "Name": "mohit",
+        "email": "mohitw420@gmail.com",
+        "password": "1234",
+        "role": "admin",
+        "id": 1
+    },
+    "1": {
+        "Name": "sahil",
+        "email": "sahil420@gmail.com",
+        "password": "11",
+        "role": "editor",
+        "id": 2
+    },
+    "2": {
+        "Name": "kulvinder",
+        "email": "laddi420@gmail.com",
+        "password": "123",
+        "role": "editor",
+        "id": 3
+    },
+    "4": {
+        "Name": "vishal",
+        "email": "vishalw420@gmail.com",
+        "password": "1234",
+        "role": "admin",
+        "id": 5
+    },
+    "5": {
+        "Name": "robin",
+        "email": "robin420@gmail.com",
+        "password": "1234",
+        "role": "editor",
+        "id": 6
+    },
+    "6": {
+        "Name": "manish",
+        "email": "manishpandey@gmail.com",
+        "password": "1234",
+        "role": "user",
+        "id": 7
+    },
+    "7": {
+        "Name": "anish",
+        "email": "anish@gmail.com",
+        "password": "1234",
+        "role": "editor",
+        "id": 8
+    },
+    "8": {
+        "Name": "dgg",
+        "email": "ds@gmail.com",
+        "password": "1234",
+        "role": "admin",
+        "id": 9
+    },
+    "9": {
+        "Name": "mohit walia ",
+        "email": "mohitw322@gmail.com",
+        "password": "123",
+        "role": "admin",
+        "id": 10
+    },
+    "10": {
+        "Name": "tarun",
+        "email": "tarun.ewb@gmail.com",
+        "password": "1234",
+        "role": "editor",
+        "id": 11
+    },
+    "11": {
+        "Name": "tarun",
+        "email": "ewb.tarun@gmail.com",
+        "password": "1234",
+        "role": "editor",
+        "id": 12
+    }
+}
