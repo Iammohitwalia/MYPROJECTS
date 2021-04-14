@@ -11,57 +11,45 @@
  * @since Twenty Twenty-One 1.0
  */
 
-?>
+?>	
 			</main><!-- #main -->
 		</div><!-- #primary -->
 	</div><!-- #content -->
-
-    <?php
-    if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
-
-<aside class="widget-area">
-    <?php dynamic_sidebar( 'sidebar-1' ); ?>
-
-</aside><!-- .widget-area -->
-
-<?php endif; ?>
-<?php
-if (   is_active_sidebar( 'first-footer-widget-area'  )
-&& is_active_sidebar( 'second-footer-widget-area' )
-&& is_active_sidebar( 'third-footer-widget-area'  )
-&& is_active_sidebar( 'fourth-footer-widget-area' )
-) : ?>
-
-<aside class="fatfooter" role="complementary">
-<div class="first quarter left widget-area">
-    <?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
-</div><!-- .first .widget-area -->
-
-<div class="second quarter widget-area">
-    <?php dynamic_sidebar( 'second-footer-widget-area' ); ?>
-</div><!-- .second .widget-area -->
-
-<div class="third quarter widget-area">
-    <?php dynamic_sidebar( 'third-footer-widget-area' ); ?>
-</div><!-- .third .widget-area -->
-
-<div class="fourth quarter right widget-area">
-    <?php dynamic_sidebar( 'fourth-footer-widget-area' ); ?>
-</div><!-- .fourth .widget-area -->
-</aside><!-- #fatfooter -->
-<?php endif; ?>
+<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-4 f1">
+					<?php dynamic_sidebar('sidebar-1'); ?>
+				</div><!--  .col-md-4 -->
+				<div class="col-md-4 f2">
+					<?php dynamic_sidebar('footer-1'); ?>
+				</div><!--  .col-md-4 -->
+				<div class="col-md-4 f3">
+					<?php dynamic_sidebar('footer-2'); ?>
+				</div><!--  .col-md-4 -->
+				<div class="col-md-4 f4">
+					<?php dynamic_sidebar('footer-3'); ?>
+				</div><!--  .col-md-4 -->
+                <div class="col-md-4 f5">
+					<?php dynamic_sidebar('footer-4'); ?>
+				</div><!--  .col-md-4 -->
+                <div class="col-md-4 f6">
+					<?php dynamic_sidebar('footer-5'); ?>
+				</div><!--  .col-md-4 -->
+			</div><!--  .row -->
+			<div class="site-info">
+				&copy; <?php bloginfo( 'name' );
+						echo ' - ';
+						echo date("Y"); ?>
+			</div><!-- .site-info -->
+		</div><!--  .container -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
 <?php wp_footer(); ?>
-<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-  <script src="<?php echo get_stylesheet_directory_uri(); ?>/slick.js" type="text/javascript" charset="utf-8"></script>
-  <script type="text/javascript">
-    jQuery(document).on('ready', function() {
-     
-      jQuery(".lazy").slick({
-        lazyLoad: 'ondemand', // ondemand progressive anticipated
-        infinite: true
-      });
-    });
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/script.js" type="text/javascript" charset="utf-8"></script>
+
+
 </body>
 </html>
-
