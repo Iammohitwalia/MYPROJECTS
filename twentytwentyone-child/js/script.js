@@ -8,8 +8,16 @@ $(document).ready(function(){
   $(".show_btn").click(function(){
   $(".music_section").hide(); 
     $(this).parent().find(".music_section").show();
- //   $(".abc").find(".music_section").addClass("abc11");
   });
+  
+  $(".show_btn").on("click", function() {
+		var audio = $(".song")[0];
+		audio.play();
+	});
 });
+
+        
+
+
 
 

@@ -25,262 +25,30 @@ text Domain : twentytwentyonechild
 
 
 @font-face {
-
-font-family: 'Myriad Pro';
-
-src: url('fonts/MyriadPro-Bold.eot');
-
-src: local('fonts/Myriad Pro Bold'), local('fonts/MyriadPro-Bold'),
-
-url('fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
-
-url('fonts/MyriadPro-Bold.woff2') format('woff2'),
-
-url('fonts/MyriadPro-Bold.woff') format('woff'),
-
-url('fonts/MyriadPro-Bold.ttf') format('truetype');
-
-font-weight: bold;
-
-font-style: normal;
-
-font-display: swap;
-
+    font-family: 'Myriad Pro';
+    src: url('./fonts/MyriadPro-BlackSemiCn.eot');
+    src: url('./fonts/MyriadPro-BlackSemiCn.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/MyriadPro-BlackSemiCn.woff2') format('woff2'),
+        url('./fonts/MyriadPro-BlackSemiCn.woff') format('woff'),
+        url('./fonts/MyriadPro-BlackSemiCn.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
 }
-
-
 
 @font-face {
-
-font-family: 'Myriad Pro';
-
-src: url('fonts/MyriadPro-BoldCond.eot');
-
-src: local('fonts/Myriad Pro Bold Condensed'), local('fonts/MyriadPro-BoldCond'),
-
-url('fonts/MyriadPro-BoldCond.eot?#iefix') format('embedded-opentype'),
-
-url('fonts/MyriadPro-BoldCond.woff2') format('woff2'),
-
-url('fonts/MyriadPro-BoldCond.woff') format('woff'),
-
-url('fonts/MyriadPro-BoldCond.ttf') format('truetype');
-
-font-weight: bold;
-
-font-style: normal;
-
-font-display: swap;
-
+    font-family: 'Myriad Pro';
+    src: url('./fonts/MyriadPro-Bold.eot');
+    src: url('./fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/MyriadPro-Bold.woff2') format('woff2'),
+        url('./fonts/MyriadPro-Bold.woff') format('woff'),
+        url('./fonts/MyriadPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 
-
-@font-face {
-
-font-family: 'Myriad Pro';
-
-src: url('fonts/MyriadPro-BoldCondIt.eot');
-
-src: local('fonts/Myriad Pro Bold Condensed Italic'), local('fonts/MyriadPro-BoldCondIt'),
-
-url('fonts/MyriadPro-BoldCondIt.eot?#iefix') format('embedded-opentype'),
-
-url('fonts/MyriadPro-BoldCondIt.woff2') format('woff2'),
-
-url('fonts/MyriadPro-BoldCondIt.woff') format('woff'),
-
-url('fonts/MyriadPro-BoldCondIt.ttf') format('truetype');
-
-font-weight: bold;
-
-font-style: italic;
-
-font-display: swap;
-
-}
-
-
-
-@font-face {
-
-font-family: 'Myriad Pro';
-
-src: url('fonts/MyriadPro-Cond.eot');
-
-src: local('fonts/Myriad Pro Condensed'), local('fonts/MyriadPro-Cond'),
-
-url('fonts/MyriadPro-Cond.eot?#iefix') format('embedded-opentype'),
-
-url('fonts/MyriadPro-Cond.woff2') format('woff2'),
-
-url('fonts/MyriadPro-Cond.woff') format('woff'),
-
-url('fonts/MyriadPro-Cond.ttf') format('truetype');
-
-font-weight: normal;
-
-font-style: normal;
-
-font-display: swap;
-
-}
-
-
-
-@font-face {
-
-font-family: 'Myriad Pro';
-
-src: url('fonts/MyriadPro-CondIt.eot');
-
-src: local('fonts/Myriad Pro Condensed Italic'), local('fonts/MyriadPro-CondIt'),
-
-url('fonts/MyriadPro-CondIt.eot?#iefix') format('embedded-opentype'),
-
-url('fonts/MyriadPro-CondIt.woff2') format('woff2'),
-
-url('fonts/MyriadPro-CondIt.woff') format('woff'),
-
-url('fonts/MyriadPro-CondIt.ttf') format('truetype');
-
-font-weight: normal;
-
-font-style: italic;
-
-font-display: swap;
-
-}
-
-
-
-@font-face {
-
-font-family: 'Myriad Pro';
-
-src: url('fonts/MyriadPro-BoldIt.eot');
-
-src: local('fonts/Myriad Pro Bold Italic'), local('fonts/MyriadPro-BoldIt'),
-
-url('fonts/MyriadPro-BoldIt.eot?#iefix') format('embedded-opentype'),
-
-url('fonts/MyriadPro-BoldIt.woff2') format('woff2'),
-
-url('fonts/MyriadPro-BoldIt.woff') format('woff'),
-
-url('fonts/MyriadPro-BoldIt.ttf') format('truetype');
-
-font-weight: bold;
-
-font-style: italic;
-
-font-display: swap;
-
-}
-
-
-
-@font-face {
-
-font-family: 'Myriad Pro';
-
-src: url('fonts/MyriadPro-Regular.eot');
-
-src: local('fonts/Myriad Pro Regular'), local('fonts/MyriadPro-Regular'),
-
-url('fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
-
-url('fonts/MyriadPro-Regular.woff2') format('woff2'),
-
-url('fonts/MyriadPro-Regular.woff') format('woff'),
-
-url('fonts/MyriadPro-Regular.ttf') format('truetype');
-
-font-weight: normal;
-
-font-style: normal;
-
-font-display: swap;
-
-}
-
-
-
-@font-face {
-
-font-family: 'Myriad Pro';
-
-src: url('fonts/MyriadPro-Semibold.eot');
-
-src: local('fonts/Myriad Pro Semibold'), local('fonts/MyriadPro-Semibold'),
-
-url('fonts/MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
-
-url('fonts/MyriadPro-Semibold.woff2') format('woff2'),
-
-url('fonts/MyriadPro-Semibold.woff') format('woff'),
-
-url('fonts/MyriadPro-Semibold.ttf') format('truetype');
-
-font-weight: 600;
-
-font-style: normal;
-
-font-display: swap;
-
-}
-
-
-
-@font-face {
-
-font-family: 'Myriad Pro';
-
-src: url('fonts/MyriadPro-Light.eot');
-
-src: local('fonts/Myriad Pro Light'), local('fonts/MyriadPro-Light'),
-
-url('fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'),
-
-url('fonts/MyriadPro-Light.woff2') format('woff2'),
-
-url('fonts/MyriadPro-Light.woff') format('woff'),
-
-url('fonts/MyriadPro-Light.ttf') format('truetype');
-
-font-weight: 300;
-
-font-style: normal;
-
-font-display: swap;
-
-}
-
-
-
-@font-face {
-
-font-family: 'Myriad Pro';
-
-src: url('fonts/MyriadPro-SemiboldIt.eot');
-
-src: local('fonts/Myriad Pro Semibold Italic'), local('fonts/MyriadPro-SemiboldIt'),
-
-url('fonts/MyriadPro-SemiboldIt.eot?#iefix') format('embedded-opentype'),
-
-url('fonts/MyriadPro-SemiboldIt.woff2') format('woff2'),
-
-url('fonts/MyriadPro-SemiboldIt.woff') format('woff'),
-
-url('fonts/MyriadPro-SemiboldIt.ttf') format('truetype');
-
-font-weight: 600;
-
-font-style: italic;
-
-font-display: swap;
-
-}
 
 
 
@@ -321,9 +89,6 @@ ul#primary-menu-list li a {
 
 
 .wp-block-column p {
-
-	font-size: 16px !important;
-
 	font-family: "Arimo";
 
 	line-height: 6px
@@ -396,7 +161,7 @@ ul#primary-menu-list li a {
 
 	color: white;
 
-	padding: 4px 25px 8px 26px;
+padding: 4px 20px 8px 20px;
 
 	text-decoration: none;
 
@@ -406,7 +171,7 @@ ul#primary-menu-list li a {
 
 	letter-spacing: 0px;
 
-	font-family: "Myriad Pro";
+ font-family: 'Myriad Pro';
 
 }
 
@@ -480,7 +245,7 @@ ul#primary-menu-list li a:hover {
 
 .wp-block-columns.banner-caption p {
 
-    font-size: 20px;
+    font-size: 16px;
 
     line-height: 10px;
 
@@ -502,28 +267,21 @@ color: #df7809;
 
 font-family: "Oswald";
 
-
-
-
-
 }
 
-
+#section-gm09e701 {
+	font-weight: 200;
+}
 
 
 
 a.gutentor-button.gutentor-block-button.gutentor-icon-hide {
-
-    padding: 12px 58px;
-
-    border: 1px solid white;
-
-    outline: none;
-
+	padding: 12px 58px;
+	border: 1px solid white;
+	outline: none;
 	margin: 10px 0;
-
+	border-radius: 11px;
 }
-
 
 
 
@@ -568,7 +326,7 @@ a.gutentor-button.gutentor-block-button.gutentor-icon-hide {
 
 	z-index: 11;
 
-	height: 8px;
+	height: 9px;
 
 	width: 162px;
 
@@ -594,7 +352,7 @@ a.gutentor-button.gutentor-block-button.gutentor-icon-hide {
 
 	color: #727272;
 
-	font-weight: 400;
+	font-weight: 500;
 
 	font-family: "Arimo";
 
@@ -639,34 +397,32 @@ a.gutentor-button.gutentor-block-button.gutentor-icon-hide {
 
 
 .spcl-offer::after {
-
 	position: absolute;
-
 	content: "";
-
 	z-index: 11;
-
 	height: 8px;
-
 	width: 97px;
-
 	left: 0;
-
 	background: #df7809;
-
-	bottom: -15px;
-
+	bottom: -17px;
 	right: 0;
-
 	margin: 0 auto;
-
 }
 
 
 
 
-
-
+.gutentor-button-wrap span {
+	text-transform: capitalize;
+	font-family: "Arimo";
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 24px;
+	color: #ffffff;
+	font-weight: 400;
+	text-align: center;
+	border-radius: 7px;
+}
 
 
 
@@ -766,7 +522,7 @@ figure.wp-block-gallery.aligncenter.columns-1.image-1 {
 
 p.head {
 
-    font-size: 14px;
+    font-size: 14px !important;
 
 letter-spacing: 0px;
 
@@ -1069,15 +825,10 @@ text-align: center;
 }
 
 
-
 a.gutentor-button.gutentor-block-button.gutentor-icon-hide:hover {
-
-    background:  #ffff;
-
-    color: black;
-
-    border-radius: 17px;
-
+	background: black;
+	color: white;
+	border-radius: 11px;
 }
 
 
@@ -1204,22 +955,14 @@ ul.africa-list {
 
 
 
-#colophon {
-
+.site-footer {
 	background: black;
-
 	color: #fff;
-
 	width: 100%;
-
 	max-width: 100% !important;
-
-	margin-top: -143px;
-
-	padding: 10px 0;
-
+	padding: 10px 0!important;
+	border-bottom: 4px solid white;
 }
-
 
 
 
@@ -1251,23 +994,13 @@ ul.africa-list {
 
 
 .textwidget p {
-
-	font-size: 14px;
-
+	font-size: 12px;
 	letter-spacing: 0px;
-
 	line-height: 20px;
-
 	color: #ffffff;
-
 	font-weight: 400;
-
 	font-family: "Arimo";
-
 	text-align: left;
-
-	
-
 }
 
 
@@ -1325,23 +1058,14 @@ ul.africa-list {
 }
 
 #nav_menu-2 ul li a {
-
 	color: white;
-
 	text-decoration: none;
-
-    font-size: 14px;
-
-letter-spacing: 0px;
-
-line-height: 24px;
-
-color: #ffffff;
-
-font-weight: 400;
-
-font-family: "Arimo";
-
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 24px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Arimo";
 }
 
 
@@ -1421,83 +1145,57 @@ font-family: "Arimo";
 
 
 .col-md-4.f1 {
-
-    display: flex;
-
-    justify-content: flex-end;
-
-    padding-bottom: 30px;
-
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 56px;
 }
 
 
-
 .email-303 input {
-
 	background: none;
-
-	border: 4px solid white!important;
-
-	color: white!important;
-
-	border-radius: 6px!important;
-
-	margin-left: 36px!important;
-
-
-
+	border: 4px solid white !important;
+	color: white !important;
+	border-radius: 6px !important;
+	margin-left: 36px !important;
+	font-family: "Arimo";
+	max-width: 400px !important;
+	position: relative;
+	right: 109px;
+	height: 45px;
+	font-size: 14px;
 }
 
 
 
 label {
-
-    font-size: 14px;
-
-letter-spacing: 0px;
-
-line-height: 35px;
-
-color: #dcdcdc;
-
-font-weight: 400;
-
-font-family: "Arimo";
-
-text-align: center;
-
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 35px;
+	color: #dcdcdc;
+	font-weight: 400;
+	font-family: "Arimo";
+	text-align: center;
+	margin-right: 7rem;
 }
 
 
 
 .text1 {
-
-    color:#df7809;
-
+	color: #df7809;
+	text-transform: capitalize;
 }
-
 
 
 .btnss input {
-
 	position: relative;
-
-	right: 91px;
-
-	padding: 0px 40px!important;
-
+	right: 171px;
+	padding: 0px 26px !important;
 	background: #df7809 !important;
-
-	font-size: 0px!important;
-
-	top: -8px;
-
-	height: 55px;
-
-    outline:none!important;
-
+	font-size: 0px !important;
+	top: -4px;
+	height: 39px;
+	outline: none !important;
 }
-
 
 
 
@@ -1561,17 +1259,11 @@ font-family: "Arimo";
 
 
 .rpwwt-post-excerpt {
-
-font-weight: 400;
-
-font-family: "Arimo";
-
-    font-size: 14px;
-
-letter-spacing: 0px;
-
-line-height: 15px;
-
+	font-weight: 400;
+	font-family: "Arimo";
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 15px;
 }
 
 
@@ -1669,21 +1361,13 @@ line-height: 15px;
 }
 
 
-
 .col-md-4.f5 p {
-
-    font-size: 14px;
-
-letter-spacing: 0px;
-
-line-height: 20px;
-
-color: #ffffff;
-
-font-weight: 400;
-
-font-family: "Arimo";
-
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 20px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Arimo";
 }
 
 
@@ -1821,37 +1505,22 @@ font-family: "Arimo";
 
 
 .has-text-align-center.offer-text {
-
 	position: absolute;
-
 	bottom: 50px;
-
 	background: #ff8300ba;
-
 	width: 100%;
-
 	transition: .5s ease;
-
-	font-size: 23px;
-
 	letter-spacing: 0px;
-
 	line-height: 39px;
-
 	color: #ffffff;
-
 	font-weight: 400;
-
 	font-family: "Arimo";
-
 	text-align: center;
-
 	height: 110px;
-
-
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
 
 
 .wp-block-column.offers-1 {
@@ -1863,11 +1532,7 @@ font-family: "Arimo";
 
 
 .wp-block-column.offers-1:hover .has-text-align-center.offer-text {
-
 	height: 85.3%;
-
-
-
 }
 
 
@@ -1921,28 +1586,16 @@ font-family: "Arimo";
     color:#df7709!important;
 
 }
-
 .btnss::before {
-
 	position: absolute;
-
 	z-index: 11;
-
 	content: "";
-
 	background-image: url(http://training.strixdevelopment.io/africa/wp-content/uploads/2021/04/Layer-21@1X.png);
-
 	height: 35px;
-
-	width: 27px;
-
-	right: 7.5rem !important;
-
-	margin-top: 15px;
-
+	width: 25px;
+    right: 16.1rem !important;
+	margin-top: 10px;
 	background-repeat: no-repeat;
-
-	background-size: 100%;
 
 }
 
@@ -2142,6 +1795,10 @@ font-family: "Arimo";
 
 }
 
+.main-section .wp-block-column {
+	margin: 27px !important; 
+}
+
 .wp-block-columns.facilities-1 {
 
 	padding-top: 4rem; 
@@ -2170,8 +1827,19 @@ font-family: "Arimo";
 
 }
 
+.primary-navigation-open #primary-menu-list {
+	display: block;
+}
 
 
+#site-navigation {
+	width: 100% !important;
+
+}
+
+ #primary-menu-list{
+     display:none;
+ }
 
 
 .banner-content {
@@ -2209,11 +1877,449 @@ font-family: "Arimo";
 }
 
 
+@media only screen and (max-width: 320px){
+    
+    .primary-menu-container {
+	background: #000000b3 !important;
+}
+
+
+.banner-content {
+	margin-top: 10rem;
+
+}
+
+.wp-block-column p {
+	font-size: 17px !important;
+
+}
+
+.btn-join {
+	display: flex;
+	justify-content: center;
+	top: 17px;
+	position: relative;
+}
+
+.wp-block-columns.banner-caption p {
+	
+	line-height: 20px;
+}
+
+.welcome-heading {
+	font-size: 25px;
+
+}
+
+
+.welcome-heading::after {
+	height: 7px;
+	width: 100px;
+	bottom: -12px;
+    }
+
+.welcome-africa .welcome-text {
+	font-size: 12px !important;
+	line-height: 18px !important;
+	width: 290px;
+	padding-bottom: 0px;
+}
+
+.wp-block-columns.facilities-1 .wp-block-column {
+	width: 100%;
+	margin: 6rem 0 0 0 !important;
+}
+
+
+
+element {
+}
+.wp-block-columns:not(.alignwide):not(.alignfull) {
+    clear: both;
+}
+.wp-block-columns:not(.alignwide):not(.alignfull) {
+    clear: both;
+}
+.wp-block-columns.facilities-1 {
+    padding-top: 0px;
+    }
+    
+    
+    .africa-section-1 img {
+	min-width: 100%;
+	height: 170px;
+}
+
+#gma703455 {
+	margin-top: 25px;
+}
+
+#gm1a52f44 {
+	margin-bottom: 0;
+}
+
+.choosing-element .element-1 {
+	max-width: 100% !important;
+}
+
+
+
+p.graph {
+
+	line-height: 27px;
+
+}
+
+#gm622728d {
+	margin-top: 5rem;
+}
+
+.section-gmdcd05a9 {
+	height: 1267px !important;
+}
+
+
+h2.choose-us-heading {
+	font-size: 30px !important;
+	margin-top: 10px;
+	padding-bottom: 20px;
+
+}
+
+h2.choose-us-heading::after {
+
+	bottom: 10px;
+
+}
+
+.choose-us .element-1 {
+
+	margin-bottom: 90px;
+}
+
+.choosing-element {
+
+	padding: 6rem 0 0 0;
+}
+
+
+.spcl-offer {
+	font-size: 30px;
+
+}
+
+.has-text-align-center.offer-text {
+	bottom: 39px;
+
+}
+.wp-block-column.offers-1:hover .has-text-align-center.offer-text {
+	height: 87%;
+}
+
+
+.full-width {
+
+	height: 517px;
+	background-position: right;
+}
+
+
+.menu-button-container {
+	position: relative;
+	top: -70px;
+}
+
+.site-header > .site-logo {
+	width: 100% !important;
+
+}
+
+.col-md-4.f4 {
+	width: 100%;
+	overflow: hidden;
+	padding: 40px 0 0 0px;
+}
+
+.col-md-4.f2 {
+	width: 100%;
+	padding: 0 0px 0 0px;
+
+}
+
+.textwidget p {
+	font-size: 13px;
+	text-align: center;
+}
+#media_gallery-2 {
+	text-align: center;
+}
+
+.gallery-columns-3 .gallery-item {
+	text-align: center;
+}
+
+.col-md-4.f3 {
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+.col-md-4.f5 {
+	width: 100%;
+	padding-top: 25px;
+	overflow: hidden;
+	text-align: center;
+}
+.col-md-4.f5 p {
+	text-align: left;
+}
+.col-md-4.f6 {
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center !important;
+}
+
+.social-icon {
+	display: block;
+	line-height: 12px;
+}
+
+
+.col-md-4.f1 {
+
+	justify-content: center;
+
+}
+
+.attachment-thumbnail.size-thumbnail {
+	margin-right: 0;
+}
+
+
+
+.email-303 input {
+
+	margin-top: 30px !important;
+	margin-left: 0;
+}
+
+.col-md-4.f1 {
+
+	flex-direction: column;
+}
+
+
+.email-303 input {
+
+	margin: 0!important;
+}
+
+.btnss input {
+
+	left: 13.6rem;
+	padding: 0px 0 !important;
+
+	font-size: 17px !important;
+	top: -58px;
+	height: 54px;
+
+	width: 68px;
+}
+
+label {
+	font-size: 14px!important;
+}
+.primary-navigation > div > .menu-wrapper {
+
+	text-align: left;
+}
+
+li#menu-item-53 a {
+	background: none;
+}
+
+
+ul.africa-list li {
+    display: inline-block;
+
+
+}
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 480px){
+    
+    .wp-block-columns.facilities-1 .wp-block-column {
+	width: 100%;
+	margin: 99px 0 0 0 !important;
+}
+
+
+#section-gfe74d8 {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+    
+    
+    .wp-block-columns.facilities-1 {
+	padding: 0;
+}
+    
+    
+    .choosing-element .element-1 {
+	max-width: 100% !important;
+	margin-bottom: 80px;
+}
+    
+    
+    .section-gmdcd05a9 {
+
+	height: 1291px !important;
+}
+    
+    
+    .has-text-align-center.offer-text {
+
+	bottom: 39px;
+    }
+    
+    .col-md-4.f2 {
+	width: 100%;
+	float: left;
+	padding: 0 0px 0 0px;
+
+}
+    .col-md-4.f3 {
+	width: 50%;
+	text-align: left;
+	float: left;
+	margin-bottom: 30px;
+}
+
+
+.col-md-4.f4 {
+	width: 50%;
+	padding: 0 0 0 0px;
+}
+    .col-md-4.f5 {
+	width: 50%;
+
+}
+    
+    
+    #media_gallery-2 {
+	display: flex;
+	justify-content: center;
+}
+    
+    .textwidget p {
+    font-size: 16px;
+	text-align: center;
+}
+    
+    
+    .attachment-thumbnail.size-thumbnail {
+	margin-right: 0;
+}
+    
+    
+    .col-md-4.f2 {
+
+	margin-bottom: 50px;
+}
+    
+    .col-md-4.f5 p {
+	font-size: 15px;
+
+}
+
+.africa-section-1 img {
+	height: 260px;
+}
+    
+    .welcome-africa .welcome-text {
+
+
+	line-height: 20px !important;
+
+	width: 400px;
+
+	padding-bottom: 0px;
+}
+  
+    .col-md-4.f1 {
+	display: flex;
+	flex-direction: column;
+
+}
+
+label {
+	display: flex;
+	justify-content: center;
+}
+
+
+.btnss input {
+	
+	right: -21rem;
+	padding: 0px 22.3px !important;
+
+	font-size: 14px !important;
+	top: -59px;
+
+}
+
+.col-md-4.f5 {
+	width: 94%;
+}
+
+#media_gallery-6 {
+	position: relative;
+	left: 5rem;
+}
+    #media_gallery-7 {
+
+	overflow: hidden;
+	position: relative;
+	left: 8rem;
+}
+    .widget-title {
+
+	text-align: center;
+}
+
+
+.col-md-4.f5 {
+	margin-top: 44px;
+	margin-bottom: 44px;
+}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+    
+    }
 
 
 
