@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+#object {
+    position: fixed;
+    left: 0;
+    bottom: 5%;
+    height: 130px;
+    width: 130px;
+}
+
+body {
+    height: 3000px;
+    background: grey;
+}
+#object h1{
+  
+  text-align: center;
+}
+img {
+    width: 245px;
+}
+        </style>
+</head>
+<body>
+<div id='object'>
+    THIS IS ROAD
+
+<img src="img/bike.png">
+</div>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script>
+var window_width = jQuery(window).width() - jQuery('#object').width();
+
+var document_height = jQuery(document).height() - jQuery(window).height();
+
+jQuery(function () {
+    jQuery(window).scroll(function () {
+        var scroll_position = jQuery(window).scrollTop();
+        var object_position_left = window_width * (scroll_position / document_height);
+        jQuery('#object').css({
+            'left': object_position_left
+        });
+    });
+});
+    </script>
+</html>
