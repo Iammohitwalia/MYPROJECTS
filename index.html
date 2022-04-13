@@ -1,0 +1,61 @@
+<style>
+.menu-close{
+     display:none;
+    }
+    ..main-menu-section{
+        display:none;
+    }
+    .l1,.l2,.l3,.l4,.l5,.l6{
+        display:none;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<div class="main">
+<div class="open-close">
+ <div class="menu-open"><i class="fa-solid fa-equals"></i></div>   
+ <div class="menu-close">X</div>   
+</div>
+<div class="main-menu-section">
+ <ul class="menucontainer">
+  <li class="l1"><a href="https://dev.coalastudio.ca/hius/">Home</a></li>
+  <li class="l2"><a href="https://dev.coalastudio.ca/hius/about/">About</a></li>
+  <li class="l3"><a href="https://dev.coalastudio.ca/hius/coming-soon/">Project</a></li>
+  <li class="l4"><a href="https://dev.coalastudio.ca/hius/process">Process</a></li>
+  <li class="l5"><a href="https://dev.coalastudio.ca/hius/coming-soon/">Store</a></li>
+<li class="l6"><a href="https://dev.coalastudio.ca/hius/contact/">Contact</a></li>
+ </div>
+</div>
+</div>
+<script>
+ jQuery('.menu-open').click(function(){
+     jQuery('.main-menu-section').show(500);
+      jQuery('.l1').show(600);
+       jQuery('.l2').show(700);
+        jQuery('.l3').show(800);
+         jQuery('.l4').show(900);
+          jQuery('.l5').show(1000);
+           jQuery('.l6').show(1100);
+           jQuery(this).hide(300);
+           jQuery('.menu-close').show(300);
+           jQuery('body').addClass('opens');
+             jQuery('.main').addClass('opens-main');
+     });
+jQuery('.menu-close').click(function(){
+    
+     jQuery('.main-menu-section').hide(500);
+      jQuery('.l1').hide(600);
+       jQuery('.l2').hide(700);
+        jQuery('.l3').hide(800);
+         jQuery('.l4').hide(900);
+          jQuery('.l5').hide(1000);
+           jQuery('.l6').hide(1100);
+           jQuery(this).hide(300);
+           jQuery('.menu-open').show(300);
+           jQuery('body').removeClass('opens');
+           jQuery('.main').removeClass('opens-main');
+     });
+    
+    
+  
+</script>
